@@ -1,0 +1,438 @@
+body, div, span, p{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'ETModules', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+h1, h2, h3, figure{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol, li{
+    list-style-type: none;
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+/*IMG*/
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/*FLEX*/
+
+.displayFlex{
+    display: flex;
+}
+
+.column {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.flexBasis50{
+    flex: 0 1 50%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
+
+.justifyContentStart{
+    justify-content: flex-start;
+}
+
+.justifyContentEnd{
+    justify-content: flex-end;
+}
+
+.justifyContentSpaceBetween{
+    justify-content: space-between;
+}
+
+/*GENERAL*/
+
+h1, h2, h3{
+    margin-bottom: 20px;
+}
+
+li{
+    padding-right: 20px;
+}
+
+
+.paddingBottom30{
+    padding-bottom: 30px;
+}
+
+.marginBottom30{
+    margin-bottom: 30px;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.paddingRight20{
+    padding-right: 20px;
+}
+
+.sombra{ 
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);;
+}
+
+.colorTexto{
+    color: #333;    
+}
+
+.marginLeft50{
+    margin-left: 50px;
+}
+
+.width100{
+    width:100%;
+}
+
+.marginLeft100{
+    margin-left: 100px;
+}
+
+.marginBottom50{
+    margin-bottom: 50px;
+}
+
+
+/*CONTENT*/
+
+#menu{
+    background-image: url("../salonBelleza.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height: 620px;
+}
+
+#menuMovil{
+    display:none;
+}
+
+#menuMovil img{
+    width: 30px;
+}
+
+#menuR{
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 25px;
+}
+
+#logo{
+    margin:0 auto; 
+    text-align: center; 
+}
+
+
+#logo img{
+    width: 250px;
+}
+
+#container{
+    margin: 0 auto;
+    width: 1140px
+}
+
+#quienesSomos{
+    margin: 100px 0 100px 0;
+}
+
+#quienesSomos p{
+    text-align: justify;
+}
+
+#quienesSomos h1{
+    text-align: center;
+}
+
+#quienesSomos img{
+    border-radius: 10px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+#servicios{
+    margin-bottom: 100px;
+}
+
+#servicios img{
+    border-radius: 10px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+#txtServicios{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#menuContacto{
+    padding:10px;
+    display:flex; 
+    flex-wrap: wrap;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center; 
+    background-color: black; 
+    color:white;
+    margin: 0 auto;
+}
+
+#menuContacto img{
+    width: 30px;
+}
+
+.divMenuContacto{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+
+.columnContacto{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.columnContacto img{
+    width: 100px;
+}
+
+#mapa{
+    margin-bottom: 50px;
+}
+
+
+/*ANCHOR*/
+
+/* unvisited link */
+  #pie a:link {
+	color: #eee;
+	font-weight: 700;
+  }
+  
+  /* visited link */
+  #pie a:visited {
+	color: #eee;
+	font-weight: 700;
+  }
+  
+  /* mouse over link */
+  #pie a:hover {
+	color: #eee;
+	font-weight: 700;
+  }
+  
+  /* selected link */
+  #pie a:active {
+	color: #eee;
+	font-weight: 700;
+  }
+
+/*PIE*/
+
+.background_foot{
+    background-color: #000;
+    color:#eee;
+}
+
+#pie{
+    padding: 60px;
+}
+
+#pie .imagesDesignedBy{
+    width:150px; 
+    float:left; 
+    margin:0 auto;
+}
+
+#pie .logoFreeIcons{
+    float:left; 
+    padding-left: -150px;
+    width: 100px;
+}
+
+#pie .logoFreepik{
+    float:left; 
+    padding-left: 30px;
+    width: 70px;
+}
+
+/*ZOOM*/
+
+/* Zoom In #1 */
+.hover01 figure {
+	height: 520px;
+    width: 345px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+.hover02 figure {
+	height: 245px;
+    width: 365px;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
+}
+
+.hover01 figure img, .hover02 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img, .hover02 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
+@media screen and (max-width: 1200px){
+
+    #menuMovil{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #menuRUl{
+        flex-direction: column;
+    }
+
+    #menu{
+        width:100%;
+    }
+
+    #menuR{
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container{
+        margin:0;
+        width:100%;
+    }
+
+    iframe{
+        width: 300px;
+    }
+
+    #menuRight{
+        text-align: center;
+    }
+
+
+    /**/
+
+    #seccionServicios{
+        margin-bottom: 30px !important;
+    }
+
+    #quienesSomos, #servicios, #contacto{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quienesSomos img, #servicios img{
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 300px;
+    }
+
+    #quienesSomos .marginLeft50{
+        margin: 0;
+    }
+
+    #quienesSomos h1{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    #quienesSomos p{
+        margin-top: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+        width: 300px;
+    }
+
+    #servicios img{
+        margin-bottom: 20px;
+    }
+
+    #txtServicios{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #contacto{
+        margin-left: 0;
+    }
+
+    #contacto .columnContacto{
+        margin-bottom: 30px;
+    }
+
+    #menuContacto{
+        flex-direction: column;
+    }
+
+    .divMenuContacto{
+        margin-bottom: 10px;
+    }
+
+    /*ZOOM*/
+    .hover01 figure, .hover02 figure{
+        box-shadow: none;
+    }
+
+    .hover01{
+        margin-bottom: 30px;
+    }
+
+    .hover02 figure{
+        margin-bottom: 0;
+    }
+
+}

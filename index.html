@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="peluqueriaPili.ico" type="image/x-icon">
+    <script
+  src="https://code.jquery.com/jquery-3.6.4.min.js"
+  integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+  crossorigin="anonymous"></script>
+
+  </head>
+  <body>
+
+
+    <div id="menuContacto">
+        <div class="divMenuContacto"><img src="phone50.png" alt="Teléfono" /><p>974 12 34 56</p></div>
+        <div class="divMenuContacto"><img src="movil50.png" alt="Móvil" /><p>625 123 456</p></div>
+        <div class="divMenuContacto"><img src="mail50.png" alt="Mail" /><p>info@peluquer.es</p></div>
+        <div class="divMenuContacto"><img src="address50.png" alt="Dirección" /><p>Av. Lafalsa de la primera, 123</p></div>
+    </div>
+
+    <section id="logo">
+        <img src="logo.png" alt="Logo Peluquería Pili" />        
+    </section>
+
+    <div class="colorTexto">
+        
+        <section id="menuR">
+            <nav id="menuRight" class="displayFlex">           
+                <ul id="menuRUl" class="displayFlex">
+                    <li>
+                        <a href="#menuContacto">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#quienesSomos">Quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="#seccionServicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#seccionContacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </section>
+        
+
+        <section id="slide_presentacion" style="z-index: -200;">
+            <img src="salonBelleza.png" alt="Peluquería Pili portada">
+        </section>
+
+        <div id="container">
+
+        <section id="quienesSomos" class="displayFlex">
+            <div class="flexBasis50">
+                <img src="quienesSomos.jpg" width alt="Quiénes somos" />
+            </div>
+            <div class="flexBasis50 marginLeft50">
+                <h1>QUIÉNES SOMOS</h1>
+                <span>
+                    <p class="marginBottom30">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Mauris in lectus nec felis dignissim egestas quis vel ipsum. 
+                    Duis rutrum, metus vel eleifend interdum, ante enim faucibus lacus, 
+                    in scelerisque nisi dolor vitae ante. 
+                    Nullam quis odio nec augue convallis viverra.</p>
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Mauris in lectus nec felis dignissim egestas quis vel ipsum.
+                        Duis rutrum, metus vel eleifend interdum, ante enim faucibus lacus.</p>
+                </span>
+            </div>
+        </section>
+
+        <h1 id="seccionServicios" class="textAlignCenter">SERVICIOS</h1>
+
+        <!--div id="txtServicios">
+            <p>Realizamos servicios de estética, peluquería (peinados y coloración), uñas y tratamientos especializados.</p>
+        </div-->
+
+        <section id="servicios" class="displayFlex">
+            <div class="column">
+                <div class="hover01">
+                    <figure><img src="estetica.jpg" height="520" alt="Servicio de estética">></figure>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="hover02">
+                    <figure class="marginBottom30"><img src="peinados.jpg" alt="Servicio de peluquería"></figure>
+                    <figure><img src="coloracion.jpg" alt="Servicio de coloración"></figure>
+                </div> 
+            </div>
+
+            <div class="column">
+                <div class="hover02">
+                    <figure class="marginBottom30"><img src="unyas.jpg" alt="Servicio de uñas"></figure>
+                    <figure><img src="tratamientos.jpg" alt="Tratamientos especializados"></figure>
+                </div>
+            </div>
+        </section>
+
+        <h1 id="seccionContacto" class="textAlignCenter">CONTACTO</h1>
+
+        <section id="contacto" class="displayFlex marginLeft100 marginBottom50">
+            
+            <div class="columnContacto">
+                <div><img src="phone.png" alt="Teléfono" /> <span><p class="txtContacto">974 12 34 56</p></span></div>
+            </div>
+
+            <div class="columnContacto">
+                <div><img src="movil.png" alt="Móvil" /> <span><p class="txtContacto">625 123 456</p></span></div>
+            </div>
+
+            <div class="columnContacto">
+                <div><img src="mail.png" alt="Mail" /> <span><p class="txtContacto">info@peluquer.es</p></span></div>
+            </div>
+
+            <div class="columnContacto">
+                <div><img src="address.png" alt="Dirección" /> <span><p class="txtContacto">Av. Lafalsa de la primera, 123</p></span></div>
+            </div>
+
+        </section>
+
+        <div id="mapa" style="text-align: center;">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28148.07759407935!2d-0.41187316143497976!3d42.13525829367532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5844341fa7b6cf%3A0xd70c465dafca6074!2sCatedral%20de%20Huesca!5e0!3m2!1ses!2ses!4v1681677948692!5m2!1ses!2ses" width="700" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        </div> <!--CONTAINER-->
+
+    </div><!--COLOR TEXTO-->
+
+
+        
+
+        <section id="pie" class="background_foot displayFlex">
+            <div class="column">
+                <span>
+                    <p>©2023 PELUQUERÍA PILI | Todos los derechos reservados</p>
+                    <p><a href="" target="_blank">Política de privacidad</a> | 
+                        <a href="" target="_blank">Aviso legal</a> |
+                        <a href="" target="_blank">Política de cookies</a></p>
+                        <p>&nbsp;</p>
+                
+
+                        <p><a target="_blank" href="https://www.freepik.es/foto-gratis/preparacion-mascarilla-cosmetica-partir-ingredientes-naturales-cuidado-piel-facial-casa-o-salon-spa_16500224.htm#query=henna&position=44&from_view=search&track=sph">Imagen de pvproductions</a> en Freepik
+                        </p>
+                        <p>
+                        <a target="_blank" href="https://www.freepik.es/foto-gratis/mujer-sacude-su-cabello-color-arcoiris_26075034.htm#query=color%20hair&position=0&from_view=search&track=ais">Imagen de Anastasia Kazakova</a> en Freepik
+                        </p>
+                        <p>
+                        Imagen de <a target="_blank" href="https://www.freepik.es/foto-gratis/peluquera-cuidando-su-cliente_23670250.htm">Freepik</a>
+                        </p>
+                        <p>
+                        Imagen de <a target="_blank" href="https://www.freepik.es/foto-gratis/interior-salon-belleza-moderno_13349025.htm#query=interior-salon-belleza-moderno&position=1&from_view=search&track=sph">Freepik</a>
+                        </p>
+                        <p>
+                        Imagen de <a target="_blank" href="https://www.freepik.es/foto-gratis/mujer-mostrando-sus-hermosas_10368202.htm#query=mujer-mostrando-sus-hermosas&position=0&from_view=search&track=sph">Freepik</a>
+                        </p>
+                        <p>
+                        <a target="_blank" href="https://www.freepik.es/foto-gratis/peluqueria-corto-cabello-su-cliente-peluqueria_5912229.htm#query=peluqueria-corto-cabello-su-cliente-peluqueria&position=0&from_view=search&track=sph">Imagen de prostooleh</a> en Freepik
+                        </p>
+                        <p>
+                        <a target="_blank" href="https://www.freepik.es/foto-gratis/cabello-femenino-largo-liso-liso-brillante-aislado-blanco_10626761.htm#query=cabello-femenino-largo-liso-liso-brillante-aislado-blanco&position=0&from_view=search&track=sph">Imagen de valuavitaly</a> en Freepik
+                        </p>
+
+                        <p class="imagesDesignedBy">Images designed by</p>
+        
+                    <img class="logoFreeIcons" src="logoFreeIcons.png" alt="Free Icons">
+                </span>
+
+            </div>
+        </section>
+
+
+
+</body>
+</html>
